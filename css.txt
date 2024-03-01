@@ -56,13 +56,28 @@ CSS STYLING TYPES:
           }
 
     2. Background Color Property:
-      used to set background color.
+          used to set background color.
       syntax:
           body
             {
               backgroud-color :grey;
             }
+	3. Text Property:
+		i. Text-align:
+		 in css by deafult the text is aligned to the left side.
+		 
+			text-align : center;
+			text-align : left;
+			text-align : rigth;
+ 		ii. Text Decoration:
+			text-decoration: underline;
+			text-decoration: overline;
+			text-decoration: linethrough;
+			text-decoration: none;
+	
+		
 
+		
 
 
   COLOR SYSTEMS:
@@ -79,4 +94,41 @@ CSS STYLING TYPES:
 CSS SELECTORS:
     1. Universal Selector:
         i. *{} - asterisk
+                Applicable to all the document.
+    2. Element Selector:
+        The element selector selects HTML elements based on the element name.
+        p{
+            color: white;
+        }
+    3. Id Selector:
+        The id selector uses the id attribute of an HTML element to select a specific element.
+        The id of an element is unique within a page, so the id selector is used to select one unique element!
+        To select an element with a specific id, write a hash (#) character, followed by the id of the element.
+ 	 <html>
+	<head>
+		<style>
+		#1{
+	text-align:center;
+	</style>
+	</head>
+	<body>
+	<p id='1'>Hello</p>
+ 	</body>
+	</html>
+
+	4. Class Selector:
+		The class selector selects HTML elements with a specific class attribute.
+		To select elements with a specific class, write a period (.) character, followed by the class name.
+         <html>
+		<head>
+		<style>
+		.bhendi{
+		text-align:center;
+		</style>
+		</head>
+		<body>
+		<p class="bhendi">Hello</p>
+ 		</body>
+		</html>
+
 -->
