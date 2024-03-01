@@ -1,0 +1,82 @@
+<!-- CSS:
+  Cascading Style Sheet
+  It is a styling sheet
+  It is used to style the webpage
+  Used to describe the style of the html document.
+
+  we use a selector to write a css
+  Basic Syntax:
+
+            selector |
+                     V
+                      H1{
+                            color: red ;<--- Statement Terminator 
+                              ^      ^         
+                              |      |-----   Value      
+                             Property       
+                        }
+      
+CSS STYLING TYPES:
+  1. Inline CSS:
+    <h1 style = "color:red"> Helllo Wolrd </h1>
+
+  2. Using Style Tag:
+         <!DOCTYPE html>
+         <html lang="en">
+          <head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Document</title>
+          <style>
+            h1{
+                color:red;
+            }
+        </style>
+      </head>
+      <body>
+        <h1> Hello World</h1>
+      </body>
+      </html>
+
+  3. External CSS:
+      In most of the big websites they dont use inline css or using style tag they uses external css.
+      External css is also known as external stylesheet.
+      External css has a seperate css file mainly named as style.css
+      It has seperate css document and it is link with html.
+
+
+
+  CSS PROPERTIES:
+
+    1. Color Property:
+      used to set the color of foreground.
+      syntax:
+        h1{
+          color: pink;
+          }
+
+    2. Background Color Property:
+      used to set background color.
+      syntax:
+          body
+            {
+              backgroud-color :grey;
+            }
+
+
+
+  COLOR SYSTEMS:
+      1. RGB :  REG, GREEN, BLUE
+           color: rgb(red(0-255), green(0-255), blue(0-255)); 
+      2. HEX
+            hex means Hexadecimal
+            color: #ff0000; (00-ff, 00-ff, 00-ff)
+
+
+
+
+
+CSS SELECTORS:
+    1. Universal Selector:
+        i. *{} - asterisk
+-->
